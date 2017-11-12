@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to OpenRAP
 
-You can use the [editor on GitHub](https://github.com/projectOpenRAP/openrap.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+OpenRAP stands for Open Resource Access Point. OpenRAP is an open source software initiative to develop a modular & scalable localised CDN platform. Open Offline Localised CDN software is written to be hardware agnostic. Open source software community can use, validate and contribute to project.
 
 ### Markdown
 
