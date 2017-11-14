@@ -7,11 +7,26 @@ OpenRAP stands for Open Resource Access Point. OpenRAP is an open source softwar
 
 ## [](#header-2)Installation
 
+### [](#header-3)Prerequisites
+This section should expand as open source contributions to support multiple run times increase over time. Presently, the software and reference steps consider the following tech stack:
+Required: - Linux, preferably Raspbian Jessie
+
+### [](#header-3)Developer
+Make sure that golang compiler is installed in your Linux/MacOS development environment
+
+### [](#header-3)Production
+The software is based on linux debian(raspbian) based raspberrypi3 board device. It can be installed on different boards supporting similar linux platform with required packages installed. - Visit raspbian page to download and burn a flash image - Boot the image - Clone this repository and build it. - Copy the software package into the raspbian and install it - Reboot the system
+
+### [](#header-3) Details
+Following are some sample commands to automate various acts.
+Install golang into development laptop
+Build the image
+./buildimage.py --help 
 
 
 ## [](#header-2)Running
 
-## [](#header-2)Configuration
+## [](#header-2)Uer Manual
 
 Introduction
 This document describe the end user manual and  admin operations on the openRAP platform. 
