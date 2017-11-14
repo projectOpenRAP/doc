@@ -1,6 +1,5 @@
-title: Project OpenRAP
+title: OpenRAP
 description: Project OpenRAP documentation and informaton pages
 show_downloads: true
 google_analytics:
-github: openrap
-theme: jekyll-theme-minimal
+theme: jekyll-theme-dinky

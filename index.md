@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-
-
-# [](#header-1)OpenRAP
-
+![Thumbnail of openRAP](static/openRapLogo.png)
+# [](#header-1)
 OpenRAP stands for Open Resource Access Point. OpenRAP is an open source software initiative to develop a modular & scalable localised CDN platform. Open Offline Localised CDN software is written to be hardware agnostic. Open source software community can use, validate and contribute to project.
 
 ## [](#header-2)Installation
@@ -12,6 +10,7 @@ OpenRAP stands for Open Resource Access Point. OpenRAP is an open source softwar
 
 
 ## [](#header-2)Running
+
 ## [](#header-2)Configuration
 
 Introduction

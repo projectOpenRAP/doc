@@ -1,19 +1,19 @@
-# The Minimal theme
+# The Dinky theme
 
-[![Build Status](https://travis-ci.org/pages-themes/minimal.svg?branch=master)](https://travis-ci.org/pages-themes/minimal) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
+[![Build Status](https://travis-ci.org/pages-themes/dinky.svg?branch=master)](https://travis-ci.org/pages-themes/dinky) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-dinky.svg)](https://badge.fury.io/rb/jekyll-theme-dinky)
 
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
+*Dinky is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/dinky), or even [use it today](#usage).*
 
-![Thumbnail of minimal](thumbnail.png)
+![Thumbnail of dinky](thumbnail.png)
 
 ## Usage
 
-To use the Minimal theme:
+To use the Dinky theme:
 
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    theme: jekyll-theme-minimal
+    theme: jekyll-theme-dinky
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
@@ -28,7 +28,7 @@ To use the Minimal theme:
 
 ### Configuration variables
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+Dinky will respect the following variables, if set in your site's `_config.yml`:
 
 ```yml
 title: [The title of your site]
@@ -60,28 +60,28 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/pages-themes/dinky/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
 
 ## Roadmap
 
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/pages-themes/dinky/issues) for a list of proposed features (and known issues).
 
 ## Project philosophy
 
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+The Dinky theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
 ## Contributing
 
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
+Interested in contributing to Dinky? We'd love your help. Dinky is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/dinky`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
