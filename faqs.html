@@ -3,14 +3,14 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for documentations</title>
+    <title>OpenRAP | FAQs</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
@@ -32,14 +32,13 @@
 
 <body class="body-purple">
     <div class="page-wrapper">
-        <!-- ******Header****** -->
+        <!-- The Header -->
         <header id="header" class="header">
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                            <span class="text-highlight">Pretty</span><span class="text-bold">Docs</span>
+                            <span style="font-family: 'Pacifico',cursive">OpenRAP</span>
                         </a>
                     </h1>
                 </div><!--//branding-->
@@ -52,7 +51,7 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_lifesaver"></span> FAQs</h1>
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon fa fa-question"></span> FAQs</h1>
                     <div class="meta"><i class="fa fa-clock-o"></i> Last updated: Jan 25th, 2016</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
@@ -61,75 +60,217 @@
                             <section id="general" class="doc-section">
                                 <h2 class="section-title">General</h2>
                                 <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> Can I viverra sit amet quam eget lacinia?</h3>
-                                    <div class="answer">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</div>
+                                    <h3 class="question"><i class="fa fa-question-circle"></i> What is CDN?</h3>
+                                    <div class="answer">
+                                        <ul>
+                                            <li>
+                                                <b>CDN - </b>A content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance/Speed. CDNs serve a large fraction of the Internet content today, including web objects (text, graphics and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), live streaming media, on-demand streaming media, and social networks.
+                                            </li>
+                                            <li>
+                                                <b>Localised CDN - </b>Localised CDN is a platform to deliver content to a Localised Community or group of users. Content residing on these platforms are mostly curated to be consumed by the community users on a frequent basis. Localized CDNs can be either deployed on-premise or in the cloud based on the connectivity and requirements. On premise localized CDN, based on capacity &amp;  volume, can be classified as Micro, Medium and Huge CDN systems.
+                                            </li>
+                                            <li>
+                                                <b>Offline Localised CDN - </b> The term offline signifies the usage of the localised CDNs without the need of Internet.The need for  OFFLINE are many, few outlined below:
+                                                <ol>
+                                                    <li>Disconnected geography and no connectivity</li>
+                                                    <li>Slow Internet Speed, not enough to Stream/Download high quality Video Content.</li>
+                                                    <li>Connectivity not affordable.</li>
+                                                    <li>Same set of Content to be consumed, doesn’t make sense to  download it through Internet every time, caching is a good solution.</li>
+                                                </ol>
+                                                Essentially an on-premise Localised CDN can be used to deliver content WITHOUT the need of Internet. As an example a school having complete class K12 content pre-loaded onto localised CDNs and Students/Teachers can access that content locally without the need of internet totally in an Offline Environment.
+                                            </li>
+                                            <li>
+                                                <b>Open Offline Localised CDN - </b>Is an open source software initiative to develop a modular &amp; scalable localised CDN platform. Open Offline Localised CDN software is written to be hardware agnostic. Open source software community can use, validate and contribute to project.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div><!--//section-block-->
+
                                 <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> What is the ipsum dolor sit amet quam tortor? <span class="label label-success">New</span></h3>
-                                    <div class="answer">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+                                    <h3 class="question"><i class="fa fa-question-circle"></i> How To Use CDN (Content Delivery Network) in Schools?</h3>
+                                    <div class="answer">
+                                        <p>
+                                            Open Localized CDN devices are preloaded with Digital content (ebooks, Videos, Audio, Pictures..). Content can be refreshed either through Laptop or USB using the Admin Portal of the device.
+                                        </p>
+                                        <ol>
+                                            <li>CDN will publish a Hotspot with the configured SSID when powered on.</li>
+                                            <li>End Devices (Laptop / Desktop / Tablets / Smartphones) connect to the OpenRAP using the published WiFi.</li>
+                                            <li>Post Connection, Laptop/Desktop to open the configured URL to access the Content residing at a local storage unit and Smartphones / Tablets can access the content through OpenRAP compliant App.  Apps could further develop plug-ins to OpenRAP stack to automate data and content synchronization. </li>
+                                        </ol>
+                                        <p>
+                                            All the Analytics data gathered like “who is watching what, most popular videos watched, who all logged-in…” can also be seen on the Dashboard either Offline and Online.
+                                        </p>
+                                    </div>
                                 </div><!--//section-block-->
+
                                 <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> How does the morbi quam tortor work?</h3>
-                                    <div class="answer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. Vestibulum vitae justo quam. Nulla luctus nunc in neque suscipit dictum. Cras faucibus magna sem, non accumsan quam interdum elementum. Pellentesque sollicitudin orci mauris, sit amet mollis nisi vehicula ut. Fusce non accumsan massa, tempus dictum leo. Suspendisse ornare ex vel imperdiet cursus.</div>
+                                    <h3 class="question"><i class="fa fa-question-circle"></i> Comparing Current Solution with CDN</h3>
+                                    <div class="answer">
+                                        <p>
+                                            Today the solution which is widely used in schools for content Browsing and Distribution is placing a dedicated Content server behind a Networking switch, so that all the Desktops / Laptops can connect to it and access the content stored Locally.
+                                        </p>
+                                        <p>
+                                            Below table compares the dedicated Content Server with Open Offline CDN.
+                                        </p>
+                                        <div class="section-block">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <td></td>
+                                                            <th>Content and Application Server</th>
+                                                            <th>Open Offline CDN</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1.</td>
+                                                            <td>Big and Bulky Hardware (Server class PC)</td>
+                                                            <td>Small and Lightweight</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2.</td>
+                                                            <td>Needs Proper Deployment</td>
+                                                            <td>Plug-n-Play</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3.</td>
+                                                            <td>Wired and needs Network installation</td>
+                                                            <td>Creates its own Wireless Network</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4.</td>
+                                                            <td>Costly</td>
+                                                            <td>Low Cost Device</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5.</td>
+                                                            <td>Needs a complex software to be Installed.</td>
+                                                            <td>Open Source Software, can be installed and configured Easily.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6.</td>
+                                                            <td>Content Browsing through Web Page, which can’t happen wirelessly</td>
+                                                            <td>Content Browsing through webpage and App.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7.</td>
+                                                            <td>Can only distribute Content</td>
+                                                            <td>Can distribute content as well gather data from end Users in form of Surveys, Forms, attendance tool, profiling teachers / Students, taking and evaluating Assessments and Quizzes.</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div><!--//section-block-->
+
                                 <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> How does the morbi quam tortor work? <span class="label label-warning">Updated</span></h3>
-                                    <div class="answer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</div>
-                                </div><!--//section-block-->
-                                <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> How do I submit gravida justo ut sem feugiat?</h3>
-                                    <div class="answer">Quisque rhoncus elit in ullamcorper finibus. Mauris diam ipsum, tristique id nibh at, sagittis suscipit odio. Donec lacinia consequat augue vulputate pellentesque. Donec sed vehicula purus. Aliquam ac enim non magna vulputate mattis. Proin non vulputate est, id aliquam tortor. </div>
-                                </div><!--//section-block-->
-                                <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> Are there any gravida justo ut sem feugiat?</h3>
-                                    <div class="answer">Curabitur convallis sapien eget porttitor tincidunt. Aenean vehicula congue tortor, in ullamcorper metus porta a. Sed congue condimentum turpis vel hendrerit. Nam dapibus nunc eu tellus accumsan, viverra posuere nibh dapibus. Nam nec condimentum elit. Aliquam erat volutpat. Proin dictum est a lacus semper porta. Pellentesque nec efficitur lectus, at tincidunt felis. Etiam ultrices malesuada nulla, sit amet luctus leo semper sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <h3 class="question"><i class="fa fa-question-circle"></i> What are the Device Specifications? </h3>
+                                    <div class="answer">
+                                        <p>The Tables below captures the Minimum Hardware and Software requirements / specifications to run Open Offline Micro CDN.</p>
+                                        <p><b>Hardware specification:</b></p>
+                                        <div class="section-block">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Parameter</th>
+                                                        <th>Specification</th>
+                                                        <th>Notes</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><b>Processor and cache</b></td>
+                                                        <td>ARMV7 Quad Core @ 1.2 Ghz or Equivalent</td>
+                                                        <td>With minimum 2400 MIPS integer performance</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Memory</b></td>
+                                                        <td>1 GB LPDDR2-900 SDRAM</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Storage</b></td>
+                                                        <td>Minimum of 32GB, solid state storage</td>
+                                                        <td>Must be extendable</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan='2'><b>Networks supported</b></td>
+                                                        <td>Wireless LAN 802.11a/b/g/n</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ethernet LAN, 100 mbps or more</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Power consumption</b></td>
+                                                        <td>Under maximum load, must consume less than 12.5W</td>
+                                                        <td>Average operating wattages must be less than 5 W</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Additional ports to be supported</b></td>
+                                                        <td>Two ports of USB 2.0 ports or more. </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Additional  Ports - Recommended</b></td>
+                                                        <td>HDMI 2.0</td>
+                                                        <td>For connecting to the monitor</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Performance Criteria</b></td>
+                                                        <td>Concurrent video streaming of up to 20 active connections.</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>Enclosure</b></td>
+                                                        <td>IP 50 Enclosure or more</td>
+                                                        <td>Dust Resistant enclosure, assuming CDN would be placed in an in-house.</td>
+                                                    </tr>
+                                                </tbody>
+                                                </table>
+                                            </div>
+                                            <p><strong>Note - </strong> In order to protect the OpenRAP compliant device from rain, moisture, dust, heat, it is recommended that the device itself is housed in an additional enclosure and mounted on wall. It is also recommended that additional enclosure be designed in a way to provide easy access to USB ports. Since the OpenRAP solutions are small form factor devices, It is recommended that, the OpenRAP device is mounted in an enclosure that is locked, but easily accessible to administrator to refresh content via USB flash device.</p>
+                                            <p><b>Software Specification:</b></p>
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Parameter</th>
+                                                            <th>Specification</th>
+                                                            <th>Notes</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><b>Bootup time</b></td>
+                                                            <td>The device must boot and operate in normal mode within 15 seconds </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><b>Basic Services</b></td>
+                                                            <td>Must support, DHCP and DNS server, HostAP software, Python, Python-django framework, Nginx and udev services as a part of OS</td>
+                                                            <td>All services version as per Debian 8, with exception of django version  1.11.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><b>Localized offline CDN Software</b></td>
+                                                            <td>OpenRAP version 1.0 readiness</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <p><strong>Note - </strong>OpenRAP solution is fast evolving solution with modules being added on daily basis. Vendors are requested to have the Offline local CDN solutions be updated with latest copy of OpenRAP solutions available in the GitHub.</p>
+                                        </div>
+                                    </div>
                                 </div><!--//section-block-->
                             </section><!--//doc-section-->
                             
                             <section id="features" class="doc-section">
                                 <h2 class="section-title">Features</h2>
-                                <div class="section-block">
-                                    <h3 class="question"><i class="fa fa-question-circle"></i> Why am I getting congue condimentum turpis?</h3>
-                                    <div class="answer">
-                                        <p>Curabitur convallis sapien eget porttitor tincidunt. Aenean vehicula congue tortor, in ullamcorper metus porta a. Sed congue condimentum turpis vel hendrerit. Nam dapibus nunc eu tellus accumsan, viverra posuere nibh dapibus. Nam nec condimentum elit. Aliquam erat volutpat. Proin dictum est a lacus semper porta. Pellentesque nec efficitur lectus, at tincidunt felis. Etiam ultrices malesuada nulla, sit amet luctus leo semper sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <pre><code class="language-python">class label: pass  # declare a label
-
-try:
-     ...
-     if condition: raise label()  # goto label
-     ...
-except label:  # where to goto
-     pass
-...</code></pre>
-                                        <p>Duis ligula ante, lobortis pretium maximus ut, mattis quis augue. Curabitur vel posuere lorem, sit amet consectetur orci. Sed mollis eget nisi eu aliquam.</p>
-                                    </div><!--//anwser-->
-                                    
-                                    <div class="section-block">
-                                        <h3 class="question"><i class="fa fa-question-circle"></i> How are gravida implemented?</h3>
-                                        <div class="answer">
-                                            <p>Curabitur convallis sapien eget porttitor tincidunt. Aenean vehicula congue tortor, in ullamcorper metus porta a. Sed congue condimentum turpis vel hendrerit. Nam dapibus nunc eu tellus accumsan, viverra posuere nibh dapibus. Nam nec condimentum elit. Aliquam erat volutpat. Proin dictum est a lacus semper porta. Pellentesque nec efficitur lectus, at tincidunt felis. Etiam ultrices malesuada nulla, sit amet luctus leo semper sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            <div class="screenshot-holder"><a href="assets/images/demo/appkit-dashboard-1.jpg" data-toggle="lightbox"><img class="img-responsive" src="assets/images/demo/appkit-dashboard-1-thumb.jpg" alt="screenshot" /></a></div> 
-                                            
-                                            </div>
-                                    </div><!--//section-block-->
-                                    
-                                    <div class="section-block">
-                                        <h3 class="question"><i class="fa fa-question-circle"></i> How does vehicula manage congue tortor?</h3>
-                                        <div class="answer">Curabitur convallis sapien eget porttitor tincidunt. Aenean vehicula congue tortor, in ullamcorper metus porta a. Sed congue condimentum turpis vel hendrerit. Nam dapibus nunc eu tellus accumsan, viverra posuere nibh dapibus. Nam nec condimentum elit. Aliquam erat volutpat. Proin dictum <code>&#x3C;div&#x3E;...&#x3C;/div&#x3E;</code> est a lacus semper porta. Pellentesque nec efficitur lectus, at tincidunt felis. Etiam ultrices malesuada nulla, sit amet luctus leo semper sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                    </div><!--//section-block-->
-                                    
-                                    <div class="section-block">
-                                        <h3 class="question"><i class="fa fa-question-circle"></i> Why does vehicula manage congue tortor?</h3>
-                                        <div class="answer">Aliquam a dui turpis. In vel tellus eget erat ullamcorper egestas at et lectus. Fusce a consectetur nisi, malesuada volutpat tellus. Nam ut urna nec urna dictum dictum sagittis id lacus. Aliquam auctor dapibus est, sit amet vehicula purus sollicitudin a. Morbi pulvinar euismod quam et aliquam. In hac habitasse platea dictumst. Quisque vel euismod sem, sit amet viverra justo.</div>
-                                    </div><!--//section-block-->
-                                    
-                                    <div class="section-block">
-                                        <h3 class="question"><i class="fa fa-question-circle"></i> Why does vehicula manage congue tortor?</h3>
-                                        <div class="answer">Quisque dignissim, lectus ac pretium dapibus, nunc arcu ornare nunc, et aliquam odio augue vitae eros. Cras vel risus quam. Aenean ultricies molestie purus bibendum lobortis. Curabitur vehicula, nisi ut tincidunt consequat, augue mi volutpat nisl, id posuere felis lectus quis quam. Donec at eros consequat, cursus eros eget, ornare mauris. Proin semper tincidunt dapibus. Etiam ornare, nibh eu dapibus pellentesque, magna metus dapibus neque, euismod fringilla nulla orci eu dolor. Mauris convallis rutrum efficitur. Integer sagittis nisi in ante convallis tempor. In placerat, velit quis laoreet sollicitudin, massa est sagittis massa, quis viverra diam nibh vitae sapien. Nunc facilisis nisl non condimentum pretium. Duis nec metus venenatis, hendrerit nisi maximus, consequat erat. Morbi odio mauris, aliquam eu bibendum vel, pulvinar at sem. Nunc sit amet elementum nisl, ac malesuada nibh. Vestibulum imperdiet dui non venenatis bibendum.</div>
-                                    </div><!--//section-block-->
-                                    
-                                    
-                                </div><!--//section-block-->
                             </section><!--//doc-section-->
                             
                             <section id="pricing" class="doc-section">
