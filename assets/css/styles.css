@@ -316,7 +316,6 @@ select {
   color: #fff;
 }
 .branding {
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 .branding .logo {
@@ -1085,7 +1084,6 @@ select {
   color: #fff;
 }
 .landing-page .branding {
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 .landing-page .branding .logo {
