@@ -51,7 +51,7 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i>Getting Started</h1>
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: February 16, 2018</div>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: February 19, 2018</div>
                 </div><!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
@@ -117,19 +117,16 @@
                                   <p>Install the prerequisite packages by:</p>
                                   <div class="code-block">
                                       <p><code>cd OpenRAP/devmgmtV2<br />npm install<br />
-                                      cd ../devmgmtui <br />npm install</code></p>
+                                      cd OpenRAP/devmgmtui <br />npm install</code></p>
                                   </div>
                                 </div>
                                 <div id="step4" class="section-block">
                                   <h3 class="block-title">Building the Image</h3>
                                   <p>Run the script that builds the .tgz file by:</p>
                                   <div class="code-block">
-                                    <p><code>cd .. &amp;&amp; python buildimage.py</code></p>
+                                    <p><code>cd OpenRAP &amp;&amp; python buildimage.py</code></p>
                                     <p>The python script also takes positional arguments that allow you to modify the output based on the board and platform you wish to use. These positional arguments are:
                                         <ul>
-                                          <li><code>--board</code> Defines the board to be used</li>
-                                          <li><code>--platform</code> Defines the platform to be used</li>
-                                          <li><code>--profile</code> Defines a custom profile</li>
                                           <li><code>--clean</code> Specifies the type of image to be cleaned</li>
                                         </ul>
                                     </p>
@@ -138,7 +135,7 @@
                                 </div>
                                 <div id="step5" class="section-block">
                                   <h3 class="block-title">Verifying Image Creation</h3>
-                                  <p>The tgz file will be named as <code>openrap-&lt;version-no&gt;.tgz</code> and stored in the <code>build/</code> directory.</p>
+                                  <p>The tgz file will be named as <code>openrap-&lt;version-no&gt;.tgz</code> and stored in the <code>build/output/</code> directory.</p>
                                 </div>
                             </section><!--//doc-section-->
 
@@ -148,7 +145,7 @@
                                     <p>
                                         The following steps will allow you to upgrade your device to the latest version.
                                         <ol>
-                                          <li>Connect to the hotspot and then to the device at <code>admin.openrap.com:8008</code></li>
+                                          <li>Connect to the hotspot and then to the device at <code>admin.openrap.com</code></li>
                                           <li>Use <code>root</code> for the username and password.<br /><br />
                                             <div class="callout-block callout-danger">
                                                 <div class="icon-holder">
